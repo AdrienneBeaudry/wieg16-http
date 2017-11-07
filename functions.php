@@ -27,4 +27,3 @@ function redirect($url, $code = 302) {
     header("Location: $url");
     exit;
 }
-redirect("http://medium.com");
